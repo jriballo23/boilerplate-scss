@@ -1,0 +1,51 @@
+@import "./_variables";
+
+// @include desktop {
+//   background-color: blue;
+// }
+
+@mixin desktopMax {
+  @media screen and (max-width: #{$desktop}) {
+    @content;
+  }
+}
+
+@mixin desktopMin {
+  @media screen and (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+// @include tablet {
+//   background-color: red;
+// }
+
+
+@mixin tabletMax {
+  @media screen and (max-width: #{$tablet}) {
+    @content;
+  }
+}
+
+@mixin tabletMin {
+  @media screen and (min-width: #{$tablet}) {
+    @content;
+  }
+}
+// @include mobile {
+//   background-color: red;
+// }
+
+
+@mixin mobileMax {
+  @media screen and (max-width: #{$mobile}) {
+    @content;
+  }
+}
+
+@mixin mobileMin {
+  @media screen and (min-width: #{$mobile}) {
+    @content;
+  }
+}
+

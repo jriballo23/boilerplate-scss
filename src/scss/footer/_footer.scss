@@ -1,0 +1,125 @@
+.location{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+// .map{
+//     display: flex;
+//     justify-content: center;
+// }
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+// !!!!!!!! AQUI TERMINA EL MAPA !!!!!!!!!!
+
+@import "../base/mixins";
+
+
+
+.footerContainer{
+    background: linear-gradient(180deg, rgb(0, 0, 0), rgb(92, 0, 132));
+    font-family: Arial, Helvetica, sans-serif; color:rgb(0, 0, 0);
+    
+    &__links{
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+        &__face{
+            
+            display: flex;
+            max-width: 50px;
+            max-height: 50px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            cursor: pointer;
+        }
+
+        &__face:hover{
+            opacity: 40%;
+            transition: opacity 0.3s;
+        }
+
+        &__insta{
+            display: flex;
+            max-width: 50px;
+            max-height: 50px;
+            margin-top: 40px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            cursor: pointer;
+        }
+
+        &__insta:hover{
+            opacity: 40%;
+            transition: opacity 0.3s;
+        }
+
+        &__linke{
+            display: flex;
+            max-width: 50px;
+            max-height: 50px;
+            margin-top: 40px;
+            margin-left: 20px;
+            margin-bottom: 40px;
+            cursor: pointer;
+        }
+        &__linke:hover{
+            opacity: 40%;
+            transition: opacity 0.3s;
+
+        }
+
+    }
+
+    &__email{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        font-size: 20px;
+        line-height : 30px;
+        padding-top: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        
+    }
+    padding-bottom: 30px;
+
+
+}
+
+.footerLogoContainer{
+    display: flex;
+    justify-content: center;
+
+}
+.footerLogo{
+    display: flex;
+    justify-content: center;
+    width: 80Px;
+    height: 80px;
+    cursor:pointer;
+    
+}
+
+.footerLogo:hover {
+     opacity: 30%;
+     transition: opacity 0.8s;
+    }

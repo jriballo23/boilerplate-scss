@@ -1,0 +1,71 @@
+@import"./base/_mixins";
+
+
+.arrows1Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.arrows1{
+    width: 90%;
+}
+
+.videoContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+
+.musicContainer{
+display: flex;
+justify-content:space-around;
+margin-bottom: 20px;
+}
+
+
+.music{
+    width: 200px;
+}
+
+
+.video{
+    display: flex;
+    border-radius: 30PX;
+    border: solid 3px rgb(66, 5, 96);
+    margin-bottom: 20px;
+
+
+}
+.video2{
+    display: flex;
+    border-radius: 30PX;
+    border: solid 3px rgb(66, 5, 96);
+    margin-bottom: 20px;
+}
+.video3{
+    display: flex;  
+    border-radius: 30PX;
+    border: solid 3px rgb(66, 5, 96);
+    margin-bottom: 20px;
+}
+
+
+
+.arrows2Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+
+}
+
+
+.arrows2{    
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+

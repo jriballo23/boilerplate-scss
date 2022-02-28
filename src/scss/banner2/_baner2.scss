@@ -1,0 +1,36 @@
+@import"./base/_mixins";
+
+@import "./base/_variables";
+
+
+    .banner2{
+    display: flex;
+    background-image: url("../assets/baner2.jpg");
+    background: position center;
+    justify-content: center;
+    align-content: center;
+    background-size:cover;
+    margin-bottom: 230px;
+    
+    // background-image: url("../assets/baner2v5.jpg");
+
+        @include tabletMax {   //Media Queri            
+        background-position: center;
+        }
+
+    }
+    
+    .start{
+        margin-top: 150px;
+        margin-bottom: 350px;
+        @include tabletMax {   //Media Queri            
+          width: 200px;
+        }
+    }
+    
+    .start:hover{
+        opacity: 40%;
+        transition: opacity 0.3s;
+        cursor: pointer;
+    }
+    

@@ -1,0 +1,101 @@
+@import"./base/_mixins";
+@import "./base/_variables";
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    .paragrapf1{
+        display: flex;
+        justify-content: center;
+        color: $color1;
+        margin-left: 10px;
+        
+
+    }
+
+    .login{
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    margin-bottom: 30px;
+    }
+
+    .paragrapf3{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        color: $color1;
+        margin-left: 20px;
+        margin-right: 20px;
+     }
+
+    .paragrapf4{
+        display: flex;
+        justify-content: center;
+        color: $color1;
+        margin-top: 20px;
+        // margin-left: 10px;
+        // margin-right: 10px;
+    }
+
+
+    .paragrapf5{
+        display: flex;
+        justify-content: center;
+        color: $color1;
+        margin-top: 20px; 
+        margin-bottom: 30px;
+
+        // margin-left: 10px;
+        // margin-right: 10px;
+
+        // .passname{
+        // margin-right: 20px;
+        // }
+
+        // .labelpass{
+        // padding-right: 20px;
+        // }
+
+    }
+
+    .register{
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .btoRegister{
+        width: 120px;
+    }
+
+    .register:hover{
+        opacity: 40%;
+        transition: opacity 1s;
+    }
+ 
+
+
+    .paragrapf2{
+        display: flex;
+        justify-content: center;
+        color: $color1;
+        margin-bottom: 250px;
+        margin-top: 30px;
+        // margin-left: 10px;
+        // margin-right: 10px;
+
+    }
+
+
+}
